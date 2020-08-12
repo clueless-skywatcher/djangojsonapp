@@ -4,5 +4,5 @@ from djsonapi import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('djsonapi.urls'))
+    path('', include('djsonapi.urls')),
 ]
