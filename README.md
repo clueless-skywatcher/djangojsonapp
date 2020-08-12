@@ -1,8 +1,8 @@
 # djangojsonapp
 A Django RESTful API that shows the activity periods of registered users.
 
-The database is already populated with dummy data. The final JSON output can be found at
-https://djangojsonapp.herokuapp.com/users/.
+The database is already populated with dummy data. The app has been deployed to 
+Heroku and the final JSON output can be found at https://djangojsonapp.herokuapp.com/users/.
 
 The API endpoint for the app is located at https://djangojsonapp.herokuapp.com/userapi/.
 
@@ -28,6 +28,7 @@ activity periods. The command deletes any existing records in all the tables and
 
 Libraries used (other than Django):
 - djangorestframework (for making the serializers and API router)
+- django-heroku (for deploying the app to Heroku)
 - requests (for making the GET request to API)
 - json (for displaying a pretty-printed JSON object to the webpage)
 - os (for referencing the environment variable)
