@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 from .serializers import UserSerializer
-from .models import User, ActivityPeriod
-from django.http import JsonResponse, HttpRequest, HttpResponse
+from .models import User
+from django.http import HttpResponse
 import requests
 import json
 import os
