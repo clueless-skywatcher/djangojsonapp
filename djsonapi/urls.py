@@ -8,5 +8,5 @@ router.register(r'userapi', views.UserViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace = 'rest_framework')),
-    path('users/', views.show_json)
+    path('users/', views.show_json) # Entering "http://<website name>/users/" will show the JSON object
 ]

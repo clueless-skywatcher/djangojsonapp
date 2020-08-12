@@ -3,6 +3,10 @@ from djsonapi.models import User, ActivityPeriod
 from datetime import datetime
 
 class Command(BaseCommand):
+    '''
+    populatejson: Custom management command to populate the database
+    with dummy data.
+    '''
     def handle(self, *args, **options):
         DATETIME_FORMAT = "%b %d %Y  %I:%M%p"
 
